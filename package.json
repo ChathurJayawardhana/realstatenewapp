@@ -1,0 +1,26 @@
+{
+  "name": "realstatenewapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "dev":"nodemon api/Index.js",
+  "start" : "node api/Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChathurJayawardhana/realstatenewapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChathurJayawardhana/realstatenewapp/issues"
+  },
+  "homepage": "https://github.com/ChathurJayawardhana/realstatenewapp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
