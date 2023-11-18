@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-  "dev":"nodemon api/Index.js",
-  "start" : "node api/Index.js"
+    "dev": "nodemon api/Index.js",
+    "start": "node api/Index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/ChathurJayawardhana/realstatenewapp#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mongoose": "^8.0.1",
     "nodemon": "^3.0.1"
   }
 }
