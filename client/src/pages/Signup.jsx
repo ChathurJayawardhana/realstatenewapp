@@ -11,15 +11,13 @@ export default function Signup() {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch('/api/auth/signup',
-    {
-      method : 'POST',
-      headers:{
-        'Content-Type':'application/json',
+    const res = await fetch('/api/auth/signup', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
       },
-      body: json.stringify(formData),
-    }
-    );
+      body: JSON.stringify(formData),
+    });
     const data = await res.json();
     console.log(data);
   };
